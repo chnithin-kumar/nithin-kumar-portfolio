@@ -31,7 +31,7 @@ export function About() {
       id="about"
       eyebrow="About"
       title="Building reliable cloud delivery"
-      subtitle="DevOps Engineer with 2.5+ years of experience automating build, release and infrastructure workflows on Azure and AWS."
+      subtitle="DevOps / DevSecOps Engineer with 3+ years of experience designing and automating CI/CD pipelines and cloud infrastructure."
     >
       <div className="grid lg:grid-cols-[1.2fr_1fr] gap-10 items-start">
         <motion.div
@@ -42,17 +42,17 @@ export function About() {
           className="space-y-5 text-muted-foreground text-base sm:text-lg leading-relaxed"
         >
           <p>
-            I&apos;m a DevOps Engineer focused on Azure, AWS and modern
-            containerized delivery. I design CI/CD pipelines that ship code
-            safely across Dev, Test, Stage and Production — with automated
-            build, quality gates, security scanning and controlled releases.
+            Experienced in Azure DevOps, Kubernetes, Docker, Terraform and AWS,
+            with strong expertise in infrastructure automation, monitoring and
+            security integration. Proven ability to improve deployment speed,
+            reliability and system scalability using modern DevOps practices.
           </p>
           <p>
-            My work spans Azure DevOps, Jenkins, Docker, Kubernetes (AKS),
-            Terraform and Ansible, along with the Azure data platform —
-            Azure SQL, Synapse Analytics, Data Factory and Databricks.
-            I care about clean pipelines, observable systems and
-            infrastructure that reads like documentation.
+            Skilled in CI/CD pipelines (Azure DevOps, GitHub Actions),
+            Infrastructure as Code (Terraform), containerization (Docker,
+            Kubernetes), monitoring and logging (Prometheus, Grafana, ELK) and
+            DevSecOps security tools (Checkmarx, Mend, SonarQube, Trivy).
+            Passionate about building secure, scalable and automated cloud platforms.
           </p>
           <div className="flex flex-wrap gap-2 pt-2">
             {["Azure", "AWS", "Terraform", "Docker", "Kubernetes", "CI/CD", "IaC", "Security"].map((t) => (

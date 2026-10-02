@@ -8,6 +8,7 @@ export const PROFILE = {
   name: "Nithin Kumar",
   fullName: "Ch Nithin Kumar",
   titles: [
+    "DevSecOps Engineer",
     "DevOps Engineer",
     "Cloud Engineer",
     "Azure DevOps Engineer",
@@ -18,7 +19,7 @@ export const PROFILE = {
   phoneRaw: "+917075016326",
   linkedin: "https://www.linkedin.com/in/chnithin",
   github: "https://github.com/chnithin-devops",
-  location: "India",
+  location: "Hyderabad, Telangana, India",
   availability: "Available for Opportunities",
 };
 
@@ -37,29 +38,46 @@ export const NAV_ITEMS = [
 ];
 
 export const ABOUT_STATS = [
-  { value: 2.5, suffix: "+", label: "Years Experience" },
+  { value: 3, suffix: "+", label: "Years Experience" },
   { value: 15, suffix: "+", label: "Cloud & DevOps Tools" },
   { value: 1, suffix: "", label: "Flagship Project" },
-  { value: 2, suffix: "", label: "Certifications" },
+  { value: 5, suffix: "", label: "Certifications" },
 ];
 
 export const EXPERIENCE = [
   {
-    company: "Zasta Enterprise Pvt Ltd",
+    company: "Zasta",
     role: "DevOps Engineer",
-    duration: "October 2023 – Present",
-    location: "India",
+    duration: "November 2025 – Present",
+    location: "Hyderabad",
     bullets: [
-      "Build CI/CD pipelines with Azure DevOps and Jenkins, integrated with SonarQube, Checkmarx and Mend for quality and security gates.",
-      "Develop scripts for build, deployment, and maintenance using Jenkins, Azure DevOps, Docker and Maven.",
-      "Handle Production and Staging deployments across Dev, Test, Stage and Prod environments.",
-      "Set up DevOps process governance across internal projects and enforce best practices.",
-      "Design container-based workflows using Docker and Azure Kubernetes Service (AKS).",
-      "Implement solutions that enable Development and Operations teams to build, deploy, monitor and test applications.",
-      "Automate compilation, testing and archiving of builds and code changes.",
-      "Act as single point of contact between Project teams and the DevOps team.",
-      "Own release management, SVN/Git code control, and DB script maintenance for releases.",
-      "Work with Azure data platform: Azure SQL, Synapse Analytics, Data Factory (ADF), Databricks (ADB), ADLS Gen2 and Key Vault.",
+      "Designed and automated CI/CD pipelines using Azure DevOps, reducing deployment time by 60%.",
+      "Implemented Infrastructure as Code using Terraform to automate cloud provisioning.",
+      "Containerized applications using Docker and Kubernetes for scalable deployments.",
+      "Integrated security scanning (Mend, Checkmarx, Chainguard, Semgrep, SonarQube) into CI/CD pipelines.",
+      "Managed cloud infrastructure on Azure and AWS.",
+    ],
+  },
+  {
+    company: "Zasta Engineers and Consultancy",
+    role: "DevOps Engineer",
+    duration: "September 2023 – November 2025",
+    location: "Hyderabad",
+    bullets: [
+      "Designed and maintained CI/CD pipelines using Azure DevOps and GitHub Actions for automated deployments.",
+      "Managed cloud infrastructure across Microsoft Azure and AWS environments.",
+      "Automated infrastructure provisioning using Terraform and Infrastructure as Code (IaC) practices.",
+      "Deployed and managed containerized applications using Docker and Kubernetes (AKS/EKS).",
+      "Implemented DevSecOps practices by integrating security scanning tools into CI/CD pipelines.",
+      "Configured Azure resources including App Services, Storage Accounts, VNets and AKS clusters.",
+      "Managed AWS services such as EC2, IAM, S3, VPC, CloudWatch and EKS.",
+      "Automated deployment, monitoring and operational tasks using Bash, PowerShell and Python.",
+      "Monitored applications and infrastructure using Prometheus, Grafana, ELK and Azure Monitor.",
+      "Performed troubleshooting and root cause analysis for production incidents and deployment failures.",
+      "Configured RBAC, IAM policies and secrets management for secure deployments.",
+      "Supported Linux and Windows server administration in cloud and on-premises environments.",
+      "Integrated SAST, DAST and open-source vulnerability scanning tools within DevSecOps pipelines.",
+      "Worked in Agile/Scrum — sprint planning, deployments and release activities.",
     ],
   },
 ];
@@ -72,6 +90,7 @@ export const SKILL_GROUPS = [
       { name: "AWS", level: 80 },
       { name: "Azure DevOps", level: 93 },
       { name: "Azure Key Vault", level: 82 },
+      { name: "AWS EC2 / IAM / S3 / VPC", level: 80 },
     ],
   },
   {
@@ -81,13 +100,15 @@ export const SKILL_GROUPS = [
       { name: "Azure Pipelines", level: 92 },
       { name: "Maven", level: 85 },
       { name: "Shell / Bash", level: 82 },
+      { name: "GitHub Actions", level: 85 },
+      { name: "JFrog Artifactory", level: 78 },
     ],
   },
   {
     title: "Containers & IaC",
     skills: [
       { name: "Docker", level: 90 },
-      { name: "Kubernetes (AKS)", level: 85 },
+      { name: "Kubernetes (AKS / EKS)", level: 85 },
       { name: "Terraform", level: 85 },
       { name: "Ansible", level: 78 },
     ],
@@ -95,7 +116,7 @@ export const SKILL_GROUPS = [
   {
     title: "Source Control & Tracking",
     skills: [
-      { name: "Git & GitHub", level: 92 },
+      { name: "Git, GitHub & GitLab", level: 92 },
       { name: "SVN", level: 80 },
       { name: "Azure Boards", level: 88 },
       { name: "Redmine", level: 78 },
@@ -109,6 +130,7 @@ export const SKILL_GROUPS = [
       { name: "Azure Data Factory", level: 80 },
       { name: "Databricks", level: 75 },
       { name: "MySQL / Oracle / SQL Server", level: 80 },
+      { name: "Kafka", level: 70 },
     ],
   },
   {
@@ -117,8 +139,20 @@ export const SKILL_GROUPS = [
       { name: "SonarQube", level: 88 },
       { name: "Checkmarx", level: 82 },
       { name: "Mend (WhiteSource)", level: 80 },
+      { name: "Trivy / Semgrep / Fortify", level: 78 },
+      { name: "SAST / SCA / DAST / SBOM", level: 80 },
       { name: "Linux / Windows Admin", level: 85 },
       { name: "Python / PowerShell", level: 78 },
+      { name: "JMeter", level: 70 },
+    ],
+  },
+  {
+    title: "Monitoring",
+    skills: [
+      { name: "Prometheus", level: 80 },
+      { name: "Grafana", level: 80 },
+      { name: "ELK Stack", level: 78 },
+      { name: "Azure Monitor", level: 82 },
     ],
   },
 ];
@@ -200,6 +234,9 @@ export const CERTIFICATIONS = [
     issuer: "JSpiders",
     certificateUrl: "",
   },
+  { title: "AI Tools Workshop", issuer: "LinkedIn Profile", certificateUrl: "" },
+  { title: "Generative AI Mastermind", issuer: "LinkedIn Profile", certificateUrl: "" },
+  { title: "AI Bootcamp", issuer: "LinkedIn Profile", certificateUrl: "" },
 ];
 
 export const ACHIEVEMENTS = [
@@ -210,7 +247,7 @@ export const ACHIEVEMENTS = [
 ];
 
 export const EDUCATION = [
-  { degree: "Bachelor of Science (MECS)", institute: "Gauthami Degree College" },
-  { degree: "Intermediate (MPC)", institute: "Sri Gayatri Junior College" },
-  { degree: "SSC", institute: "SPR School of Excellence" },
+  { degree: "Bachelor of Science (MECS), Computer Science", institute: "Gauthami Degree College, Kukatpally — Osmania University" },
+  { degree: "Intermediate (MPC)", institute: "Sri Gayatri Junior College (2016 – 2018)" },
+  { degree: "SSC", institute: "SPR School of Excellence (2015 – 2016)" },
 ];

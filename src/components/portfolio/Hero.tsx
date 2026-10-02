@@ -96,9 +96,8 @@ export function Hero() {
               transition={{ delay: 0.5, duration: 0.7 }}
               className="mt-6 text-base sm:text-lg text-muted-foreground max-w-xl"
             >
-              I design and automate cloud-native delivery pipelines on Azure and AWS —
-              turning code into reliable, secure, production-ready systems with Docker,
-              Kubernetes, Terraform and modern CI/CD.
+              DevSecOps Engineer | Azure DevOps | AWS | Kubernetes | Terraform | CI/CD |
+              Docker | GitHub Actions | Infrastructure Automation.
             </motion.p>
 
             <motion.div
