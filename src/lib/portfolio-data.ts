@@ -226,17 +226,19 @@ export const CERTIFICATIONS = [
   {
     title: "Azure DevOps Engineer Expert",
     issuer: "Microsoft",
+    category: "Professional Certification",
     // Paste the Credly / Microsoft Learn share URL here to activate the button.
     certificateUrl: "",
   },
   {
     title: "Full Stack Developer",
     issuer: "JSpiders",
+    category: "Completed Professional Training",
     certificateUrl: "",
   },
-  { title: "AI Tools Workshop", issuer: "LinkedIn Profile", certificateUrl: "" },
-  { title: "Generative AI Mastermind", issuer: "LinkedIn Profile", certificateUrl: "" },
-  { title: "AI Bootcamp", issuer: "LinkedIn Profile", certificateUrl: "" },
+  { title: "AI Tools Workshop", issuer: "LinkedIn Profile", category: "AI & Professional Learning", certificateUrl: "" },
+  { title: "Generative AI Mastermind", issuer: "LinkedIn Profile", category: "AI & Professional Learning", certificateUrl: "" },
+  { title: "AI Bootcamp", issuer: "LinkedIn Profile", category: "AI & Professional Learning", certificateUrl: "" },
 ];
 
 export const ACHIEVEMENTS = [

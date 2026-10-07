@@ -9,7 +9,7 @@ export function Certifications() {
       id="certifications"
       eyebrow="Certifications"
       title="Verified expertise"
-      subtitle="Formal certifications backing hands-on delivery."
+      subtitle="Professional certification, completed training, and AI learning."
     >
       <div className="grid md:grid-cols-2 gap-5">
         {CERTIFICATIONS.map((c, i) => {
@@ -30,6 +30,7 @@ export function Certifications() {
                 <div className="min-w-0">
                   <h3 className="font-display font-semibold text-lg truncate">{c.title}</h3>
                   <p className="text-sm text-muted-foreground">{c.issuer}</p>
+                  <p className="mt-2 text-xs font-medium text-accent">{c.category}</p>
                   {hasUrl ? (
                     <a
                       href={c.certificateUrl}
@@ -37,15 +38,8 @@ export function Certifications() {
                       rel="noopener noreferrer"
                       className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
                     >
-                      View Certificate <ExternalLink size={14} />
+                      Verify Credential <ExternalLink size={14} />
                     </a>
-                  ) : (
-                    <span
-                      className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground/60 cursor-not-allowed"
-                      title="Certificate URL not set"
-                    >
-                      URL not set <ExternalLink size={14} />
-                    </span>
                   )}
                 </div>
               </div>
