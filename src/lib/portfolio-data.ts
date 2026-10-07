@@ -236,9 +236,9 @@ export const CERTIFICATIONS = [
     category: "Completed Professional Training",
     certificateUrl: "",
   },
-  { title: "AI Tools Workshop", issuer: "LinkedIn Profile", category: "AI & Professional Learning", certificateUrl: "" },
-  { title: "Generative AI Mastermind", issuer: "LinkedIn Profile", category: "AI & Professional Learning", certificateUrl: "" },
-  { title: "AI Bootcamp", issuer: "LinkedIn Profile", category: "AI & Professional Learning", certificateUrl: "" },
+  { title: "AI Tools Workshop", issuer: "Be10x", category: "AI & Professional Learning", certificateUrl: "" },
+  { title: "Generative AI Mastermind", issuer: "GrowthSchool", category: "AI & Professional Learning", certificateUrl: "" },
+  { title: "AI Bootcamp", issuer: "Intellipaat", category: "AI & Professional Learning", certificateUrl: "" },
 ];
 
 export const ACHIEVEMENTS = [
