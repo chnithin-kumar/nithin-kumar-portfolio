@@ -1,7 +1,9 @@
 import resumeAsset from "@/assets/resume.pdf.asset.json";
 import profileAsset from "@/assets/nithin-profile.png.asset.json";
 
-export const RESUME_URL = resumeAsset.url;
+// Absolute public URL on the published site so the PDF opens for any visitor
+// (relative paths resolve to the login-protected preview domain inside the editor).
+export const RESUME_URL = `https://portfolio-nithinkumar.lovable.app${resumeAsset.url}`;
 export const PROFILE_IMG = profileAsset.url;
 
 export const PROFILE = {
