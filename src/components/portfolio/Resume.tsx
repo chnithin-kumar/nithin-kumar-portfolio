@@ -8,7 +8,6 @@ import {
   EXPERIENCE,
   PROFILE,
   PROJECT,
-  RESUME_URL,
   SERVICES,
   SKILL_GROUPS,
 } from "@/lib/portfolio-data";
@@ -143,14 +142,14 @@ export function Resume() {
       >
         <div className="flex flex-wrap gap-3 mb-4">
           <a
-            href={RESUME_URL}
+            href="/Nithin_Kumar_Resume.pdf"
             download="Nithin_Kumar_Resume.pdf"
             className="inline-flex items-center gap-2 rounded-full bg-gradient-primary px-5 py-2.5 text-sm font-semibold text-white shadow-glow hover-glow"
           >
             <Download size={16} /> Download Resume
           </a>
           <a
-            href={RESUME_URL}
+            href="/Nithin_Kumar_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full glass px-5 py-2.5 text-sm font-semibold hover:bg-white/10 transition-colors"
